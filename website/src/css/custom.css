@@ -74,6 +74,12 @@ html[data-theme='dark'] .themedDocusaurus [fill='#FFFF50'] {
   fill: seagreen;
 }
 
+@media (min-width: 751px) {
+  .DocSearch {
+    width: 155px;
+  }
+}
+
 html[data-theme='light'] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
   /* --docsearch-text-color: var(--ifm-font-color-base); */
